@@ -1,0 +1,12 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(95.43deg, #173773 -9.13%, #2b68d9 99.32%);
+}
+
+.reset-password-bg {
+  background: url("./assets/images/login_page.svg") center no-repeat;
+  background-size: cover;
+}
