@@ -36,6 +36,9 @@ export default function LoginForm() {
   const navigate = useNavigate();
   const setUser = useAuthStore((state) => state.setUser);
 
+console.log("Render LoginForm");
+
+
   const form = useForm({
     resolver: zodResolver(loginSchema),
     defaultValues: {
