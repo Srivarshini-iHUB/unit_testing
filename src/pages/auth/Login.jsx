@@ -39,9 +39,6 @@ export default function LoginForm() {
 console.log("Render LoginForm");
 console.log("Login Schema:", loginSchema);
 console.log("Initial Form Values:", { email: "", password: "" });
-console.log("useForm:", useForm);
-console.log("zodResolver:", zodResolver);
-console.log("Form:", Form);
 
 
   const form = useForm({
