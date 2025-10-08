@@ -38,6 +38,7 @@ export default function LoginForm() {
 
 console.log("Render LoginForm");
 console.log("Login Schema:", loginSchema);
+console.log("Initial Form Values:", { email: "", password: "" });
 
 
   const form = useForm({
