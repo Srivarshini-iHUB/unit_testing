@@ -36,12 +36,7 @@ export default function LoginForm() {
   const navigate = useNavigate();
   const setUser = useAuthStore((state) => state.setUser);
 
-console.log("Render LoginForm");
 console.log("Login Schema:", loginSchema);
-console.log("Initial Form Values:", { email: "", password: "" });
-console.log("Is Password Visible:", isPasswordVisible);
-console.log("Is Reset Modal Open:", isResetModalOpen);
-console.log("Navigate Function:", navigate);
 
 
   const form = useForm({
