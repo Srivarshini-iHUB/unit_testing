@@ -38,7 +38,7 @@ export default function LoginForm() {
 
 console.log("Login Schema:", loginSchema);
 console.log("Render LoginForm");
-
+console.log("Render LoginForm");
 
   const form = useForm({
     resolver: zodResolver(loginSchema),
