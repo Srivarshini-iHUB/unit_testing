@@ -37,6 +37,7 @@ export default function LoginForm() {
   const setUser = useAuthStore((state) => state.setUser);
 
 console.log("Login Schema:", loginSchema);
+console.log("Render LoginForm");
 
 
   const form = useForm({
