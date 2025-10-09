@@ -37,7 +37,7 @@ export default function LoginForm() {
   const setUser = useAuthStore((state) => state.setUser);
 
 console.log("Login Schema:", loginSchema);
-console.log("Render LoginForm");
+console.log("Render LoginForm Component");
 
   const form = useForm({
     resolver: zodResolver(loginSchema),
