@@ -40,6 +40,7 @@ console.log("Render LoginForm");
 console.log("Login Schema:", loginSchema);
 console.log("Initial Form Values:", { email: "", password: "" });
 console.log("Is Password Visible:", isPasswordVisible);
+console.log("Is Reset Modal Open:", isResetModalOpen);
 
 
   const form = useForm({
