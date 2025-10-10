@@ -39,6 +39,7 @@ export default function LoginForm() {
 console.log("Login Schema:", loginSchema);
 console.log("Render LoginForm Component");
 console.log("Is Reset Modal Open:", isResetModalOpen);
+console.log("Is Password Visible:", isPasswordVisible);
 
 
   const form = useForm({
