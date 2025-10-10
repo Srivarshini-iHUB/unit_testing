@@ -38,6 +38,8 @@ export default function LoginForm() {
 
 console.log("Login Schema:", loginSchema);
 console.log("Render LoginForm Component");
+console.log("Is Reset Modal Open:", isResetModalOpen);
+
 
   const form = useForm({
     resolver: zodResolver(loginSchema),
