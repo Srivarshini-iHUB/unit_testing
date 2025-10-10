@@ -41,6 +41,7 @@ console.log("Render LoginForm Component");
 console.log("Is Reset Modal Open:", isResetModalOpen);
 console.log("Is Password Visible:", isPasswordVisible);
 console.log("User State:", useAuthStore.getState().user);
+console.log("Form State:");
 
 
   const form = useForm({
