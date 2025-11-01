@@ -58,6 +58,7 @@ console.log("testing dataaa");
     onError: (error) => {
       console.error("Login Failed:", error.response?.data || error.message);
       toast.error("Error during login");
+      console.log("testing");
     },
   });
 
