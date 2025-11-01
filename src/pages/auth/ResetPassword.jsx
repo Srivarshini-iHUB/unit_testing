@@ -42,6 +42,7 @@ const ResetPassword = () => {
     onError: (error) => {
       console.error("Login Failed:", error.response?.data || error.message);
       toast.error("Error resetting password");
+      console.log("tetsing");
     },
   });
 
