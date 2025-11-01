@@ -38,8 +38,7 @@ export default function LoginForm() {
 
 console.log("Login Schema:", loginSchema);
 console.log("UseAuthStore User:", useAuthStore.getState().user);
-
-
+console.log("testing");
 
   const form = useForm({
     resolver: zodResolver(loginSchema),
