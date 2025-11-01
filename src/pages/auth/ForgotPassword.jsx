@@ -49,6 +49,7 @@ const ForgotPassword = () => {
     onError: (error) => {
       console.error("Password reset failed:", error.response?.data || error.message);
       toast.error("Error updating password");
+      console.log("testing comment");
     },
   });
 
